@@ -1,0 +1,33 @@
+# Deepwater Alacritty theme
+
+[colors.primary]
+background = "#062329"
+foreground = "#d1b897"
+
+[colors.cursor]
+text = "#062329"
+cursor = "#ffffff"
+
+[colors.selection]
+text = "#d1b897"
+background = "#215d9c"
+
+[colors.normal]
+black   = "#04181c"
+red     = "#c55353"   
+green   = "#44b340"
+yellow  = "#d7ba7d"
+blue    = "#4f7fa3"
+magenta = "#7ad0c6"
+cyan    = "#2ec09c"
+white   = "#d1b897"
+
+[colors.bright]
+black   = "#1c454e"
+red     = "#d36b6b"
+green   = "#44b340"
+yellow  = "#d7ba7d"
+blue    = "#6b93b2"
+magenta = "#7ad0c6"
+cyan    = "#2ec09c"
+white   = "#ffffff"

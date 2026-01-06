@@ -5,6 +5,8 @@ A Neovim colorscheme inspired by Jonathan Blow’s *naysayer* (Emacs).
 Deep teal background, warm foreground text, semantic highlighting,
 and minimal stylistic noise (no bold, no italics).
 
+<img width="2531" height="1380" alt="image" src="https://github.com/user-attachments/assets/b2f90522-339d-4b50-b4e1-619635837f7c" />
+
 ## Installation
 
 ### lazy.nvim
@@ -17,6 +19,7 @@ and minimal stylistic noise (no bold, no italics).
     vim.cmd.colorscheme("deepwater")
   end,
 }
+```
 
 ## Supported plugins & features
 

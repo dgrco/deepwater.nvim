@@ -5,7 +5,7 @@ A Neovim colorscheme inspired by Jonathan Blow’s *naysayer* (Emacs).
 Deep teal background, warm foreground text, semantic highlighting,
 and minimal stylistic noise (no bold, no italics).
 
-<img width="2531" height="1380" alt="image" src="https://github.com/user-attachments/assets/b2f90522-339d-4b50-b4e1-619635837f7c" />
+<img width="2523" height="1373" alt="image" src="https://github.com/user-attachments/assets/3dc8ff26-35a3-4b53-aa78-2c1f49ebd50a" />
 
 ## Installation
 

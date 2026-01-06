@@ -132,11 +132,15 @@ set_hl('GitSignsDelete', { fg = c.error })
 -- Treesitter 
 -- ======================
 set_hl('@variable',             { fg = c.fg })
+set_hl('@variable.builtin',     { fg = c.fg })
 set_hl('@function',             { fg = c.func })
 set_hl('@constant',             { fg = c.constant })
 set_hl('@string',               { fg = c.string })
 set_hl('@keyword',              { fg = c.keyword })
 set_hl('@type',                 { fg = c.type })
+set_hl('@type.builtin',         { fg = c.type })
+set_hl('@type.qualifier',       { fg = c.type })
+set_hl('@boolean',              { fg = c.constant })
 set_hl('@operator',             { fg = c.fg })
 set_hl('@comment',              { fg = c.comment })
 

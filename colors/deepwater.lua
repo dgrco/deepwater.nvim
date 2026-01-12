@@ -59,12 +59,14 @@ set_hl('IncSearch',     { fg = c.search_fg, bg = c.search_bg })
 set_hl('MatchParen',    { fg = c.match_paren })
 
 -- ======================
--- Syntax (corrected roles)
+-- Syntax
 -- ======================
 set_hl('Comment',       { fg = c.comment })
 
 set_hl('String',        { fg = c.string })
 set_hl('Character',     { fg = c.string })
+
+set_hl('Delimiter',     { fg = c.fg })
 
 set_hl('Number',        { fg = c.constant })
 set_hl('Boolean',       { fg = c.constant })
@@ -143,6 +145,8 @@ set_hl('@type.qualifier',       { fg = c.type })
 set_hl('@boolean',              { fg = c.constant })
 set_hl('@operator',             { fg = c.fg })
 set_hl('@comment',              { fg = c.comment })
+set_hl('@punctuation.bracket', { fg = c.fg })
+set_hl('@punctuation.delimiter', { fg = c.fg })
 
 -- ======================
 -- which-key
@@ -168,3 +172,39 @@ set_hl('CmpItemMenu',           { fg = c.line_nr })
 set_hl('CmpDoc',                { fg = c.fg, bg = '#04181c' })
 set_hl('CmpDocBorder',          { fg = c.line_nr, bg = '#04181c' })
 set_hl('CmpDocTitle',           { fg = c.fg, bg = '#04181c' })
+
+
+-- ======================
+-- Statusline palette
+-- ======================
+vim.g.deepwater_statusline = {
+  bg       = '#04181c',
+  fg       = c.fg,
+  muted    = c.line_nr,
+  accent   = c.constant,
+  insert   = c.string,
+  visual   = c.visual,
+  replace  = c.error,
+  command  = c.warning,
+}
+
+-- ======================
+-- mini.statusline
+-- ======================
+local sl = vim.g.deepwater_statusline
+
+set_hl('MiniStatuslineModeNormal',  { fg = sl.bg, bg = sl.accent, bold = true })
+set_hl('MiniStatuslineModeInsert',  { fg = sl.bg, bg = sl.insert, bold = true })
+set_hl('MiniStatuslineModeVisual',  { fg = sl.bg, bg = sl.visual, bold = true })
+set_hl('MiniStatuslineModeReplace', { fg = sl.bg, bg = sl.replace, bold = true })
+set_hl('MiniStatuslineModeCommand', { fg = sl.bg, bg = sl.command, bold = true })
+
+-- Main bar
+set_hl('MiniStatuslineNormal',      { fg = sl.fg, bg = sl.bg })
+set_hl('MiniStatuslineInactive',    { fg = sl.muted, bg = sl.bg })
+
+-- Sections
+set_hl('MiniStatuslineDevinfo',     { fg = sl.accent, bg = sl.bg })
+set_hl('MiniStatuslineFilename',    { fg = sl.fg, bg = sl.bg })
+set_hl('MiniStatuslineFileinfo',    { fg = sl.muted, bg = sl.bg })
+set_hl('MiniStatuslineLocation',    { fg = sl.muted, bg = sl.bg })

@@ -5,8 +5,7 @@ A Neovim colorscheme inspired by Jonathan Blow’s Emacs theme.
 Deep teal background, warm foreground text, semantic highlighting,
 and minimal stylistic noise (no bold, no italics).
 
-<img width="1829" height="1347" alt="image" src="https://github.com/user-attachments/assets/3fe441e4-9175-461a-b276-b6a8b6f6f468" />
-
+<img width="1828" height="1331" alt="image" src="https://github.com/user-attachments/assets/c574cada-8ec4-49b4-8653-101b802056d7" />
 
 
 ## Installation

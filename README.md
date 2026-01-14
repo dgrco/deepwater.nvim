@@ -50,8 +50,9 @@ Deepwater provides explicit highlight support for:
   - `mini.statusline`
 
 - **Extras**
-  - Matching Alacritty theme included
-  - Matching Emacs theme included
+  - Matching Alacritty theme
+  - Matching Foot theme
+  - Matching Emacs theme
 
 ### Tested with
 

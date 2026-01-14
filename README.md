@@ -5,7 +5,8 @@ A Neovim colorscheme inspired by Jonathan Blow’s *naysayer* (Emacs).
 Deep teal background, warm foreground text, semantic highlighting,
 and minimal stylistic noise (no bold, no italics).
 
-<img width="2523" height="1373" alt="image" src="https://github.com/user-attachments/assets/3dc8ff26-35a3-4b53-aa78-2c1f49ebd50a" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/e66daaa3-367f-47dc-9e4d-5cb6601a108a" />
+
 
 ## Installation
 
@@ -44,9 +45,13 @@ Deepwater provides explicit highlight support for:
 
 - **Version control**
   - `gitsigns.nvim`
+ 
+- **Status Lines**
+  - `mini.statusline`
 
-- **Terminal**
+- **Extras**
   - Matching Alacritty theme included
+  - Matching Emacs theme included
 
 ### Tested with
 

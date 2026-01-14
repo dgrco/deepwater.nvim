@@ -1,11 +1,12 @@
 # deepwater.nvim
 
-A Neovim colorscheme inspired by Jonathan Blow’s *naysayer* (Emacs).
+A Neovim colorscheme inspired by Jonathan Blow’s Emacs theme.
 
 Deep teal background, warm foreground text, semantic highlighting,
 and minimal stylistic noise (no bold, no italics).
 
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/e66daaa3-367f-47dc-9e4d-5cb6601a108a" />
+<img width="1829" height="1347" alt="image" src="https://github.com/user-attachments/assets/3fe441e4-9175-461a-b276-b6a8b6f6f468" />
+
 
 
 ## Installation
@@ -60,3 +61,7 @@ Deepwater provides explicit highlight support for:
 - `nvim-cmp`
 - `which-key.nvim`
 - `gitsigns.nvim`
+
+## Acknowledgements  
+- naysayer-theme.el [https://github.com/nickav/naysayer-theme.el]
+- Wallpaper [https://www.reddit.com/r/wallpaper/comments/qlr375/3840x2160_astronaut/]

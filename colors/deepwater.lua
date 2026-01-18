@@ -1,4 +1,4 @@
--- colors/deep_water.lua
+-- colors/deepwater.lua
 
 -- 1. Reset
 vim.cmd('highlight clear')
@@ -14,7 +14,7 @@ local c = {
   bg          = '#062329', -- Deep Teal
   fg          = '#d1b897', -- Warm Wheat text
 
-  -- The "Better" UI
+  -- UI
   cursor      = '#ffffff',
   line_nr     = '#1c454e',
   visual      = '#215d9c',
@@ -30,6 +30,7 @@ local c = {
   func        = '#d1b897',
   type        = '#ffffff',
 
+  -- Diagnostics/Debugging
   error       = '#ff3333',
   warning     = '#fabd2f',
   todo        = '#000000',
